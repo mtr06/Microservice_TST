@@ -1,7 +1,7 @@
 from pydantic import BaseModel
 import datetime
 
-class Customer(BaseModel):
+class Transaksi(BaseModel):
     Transaksi_Id: int
     Order_Id: int
     Metode: str

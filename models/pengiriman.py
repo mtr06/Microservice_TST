@@ -1,6 +1,6 @@
 from pydantic import BaseModel
 
-class Customer(BaseModel):
+class Pengiriman(BaseModel):
     Delivery_Id: int
     Transaksi_Id: int
     Nama_Kurir: str
